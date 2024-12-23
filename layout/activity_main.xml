@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:background="#F06464"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/calendar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Welcome"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAHUN INI"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bulan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="PER BULAN"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:text="__________"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:background="#F6C9C9"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:gravity="start|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senin, 01 januari 2024"
+                android:layout_marginStart="15dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:text="Tahun Baru 2024 Masehi"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:background="#F1F2D6"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:gravity="start|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin, 01 januari 2024"
+            android:layout_marginStart="15dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:text="Tahun Baru 2024 Masehi"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:background="#CCEEFF"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:gravity="start|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin, 01 januari 2024"
+            android:layout_marginStart="15dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:text="Tahun Baru 2024 Masehi"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:background="#F5CFFB"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:gravity="start|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin, 01 januari 2024"
+            android:layout_marginStart="15dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:text="Tahun Baru 2024 Masehi"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:background="#F6C9C9"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:gravity="start|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin, 01 januari 2024"
+            android:layout_marginStart="15dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:text="Tahun Baru 2024 Masehi"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
